@@ -153,3 +153,9 @@ RUN rm ./node_modules/@node-red/nodes/core/xxx/xxx.js
 (3)```docker-compose build```でイメージを構築する。
 
 　```docker-compose up -d```でコンテナを開始する。
+
+## 書き込みツールの実行方法
+- 「JSON書き込みエリア」にJSONを貼り付ける
+- 「JSON→Byte」ボタンを押すと，JSONをバイトコードに変換する
+- 「接続」ボタンを押して，接続したいシリアルデバイスを選択する
+- 「書き込み」ボタンを押すと，バイトコードの書き込みおよび実行をすることができる
